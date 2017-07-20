@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /video/
+Disallow: /PNG/
+Disallow: /mail/
+Disallow: /img/rsz_1faces-1-2.png
+
+
+Sitemap: https://work.coach/sitemap.xml
