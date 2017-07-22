@@ -1852,9 +1852,9 @@ span.text-white a {
   background: #fff;
   z-index: 9999;
   text-align: center;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  transition: all .4s ease;
   opacity: 1;
 }
 .spinner {

@@ -570,14 +570,32 @@ We need your help to improve. Please submit any comments, errors, or ideas you h
 
 
 
+            <script type="text/javascript">
+
+            $(document).ready(function(){
+            $('.background-image-holder').each(function(){
+              var imgSrc= $(this).children('img').attr('src');
+              $(this).css('background', 'url("' + imgSrc + '")');
+                $(this).children('img').hide();
+                   $(this).css('background-position', '50% 0%');
+              });
+            });
+            </script>
 
 
 
+            <script type="text/javascript">
+            function downloadJSAtOnload() {
+            var element = document.createElement("script");
+            element.src = "js/gsc.js";
+            document.body.appendChild(element);
+            }
+            if (window.addEventListener)
+            window.addEventListener("load", downloadJSAtOnload, false);
+            else if (window.attachEvent)
+            window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+            </script>
 
-            <script>
-  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
-    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
-  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/93616/script.js');
-</script>
         </body>
     </html>
