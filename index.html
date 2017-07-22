@@ -72,7 +72,7 @@ body {
 
     </head>
     <body>
-      <div class="loader">
+      <div class="loader" id="loader-id">
 
       </div>
 
@@ -1038,8 +1038,13 @@ Trusted by world-class scientists from research institutions all across the worl
                                                           </section>
 
 
+                                                          <script type="text/javascript">
 
 
+                                                        document.getElementById('loader-id').style.display = "none";
+
+
+                                                          </script>
 
             <section class="bg-primary testimony"  style="padding-top: 0px;">
               <div class="container">
@@ -1748,16 +1753,8 @@ No, unfortunately at this time WorkCoach is only available in English. Because o
 
     <script src="js/jquery.min.js"></script>
 
-    <script type="text/javascript">
 
 
-
-  $(document).ready(function(){
-
-    $('.loader').css('opacity', 0);
-    setTimeout(function(){$('.loader').hide();}, 10);
-});
-    </script>
         <script src="js/jquery.plugin.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
