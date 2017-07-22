@@ -1930,7 +1930,14 @@ Peter Meusburger
         <script src="js/scrollReveal.min.js"></script>
         <script src="js/isotope.min.js"></script>
         <script src="js/scrollz.js"></script>
+        <script data-cfasync="false" type="text/javascript">
 
+      $(window).bind("load", function() {
+          document.getElementById('loader-id').style.display = "none";
+        });
+
+
+        </script>
         <script src="js/scripts.js"></script>
         <script src="js/expand.js"></script>
 

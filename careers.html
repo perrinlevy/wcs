@@ -737,7 +737,14 @@ Full-Time
           });
         });
         </script>
+        <script data-cfasync="false" type="text/javascript">
 
+      $(window).bind("load", function() {
+          document.getElementById('loader-id').style.display = "none";
+        });
+
+
+        </script>
 
         <script type="text/javascript">
         function downloadJSAtOnload() {
