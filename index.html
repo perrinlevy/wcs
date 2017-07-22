@@ -212,7 +212,7 @@ body {
 
               <h1 class="text-white" style="font-family:'Raleway'; text-transform: capitalize; font-weight: 400; font-size: 3.5em;  text-shadow: 0px 1px 0 #339696;">
 <span class="bsixth">Evidence-backed</span> Exercises<span class="asixth" style="display:none;"> to help:</span><span class="bsixth"> to:</span>
-<div id="js-rotating">Build Your Habits
+<div id="js-rotating">&nbsp;
 </div>
 
 </h1>
@@ -1773,7 +1773,33 @@ No, unfortunately at this time WorkCoach is only available in English. Because o
         <script src="js/wow.min.js"></script>
         <script src="js/janimate.js"></script>
 
+
+
+        <script type="text/javascript">
+
+
+                var terms = ["Build Your Habits", "Identify Your Blindspots", "Manage Your Derailers","Increase Your Awareness", "Transform Your Career"];
+
+                function rotateTerm() {
+                  var ct = $("#js-rotating").data("term") || 0;
+                  $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('fadeIn',
+                   setTimeout(function() {
+          $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('flipOutX', rotateTerm);
+        },  2000));
+
+
+                }
+                $(rotateTerm);
+
+
+
+          </script>
+
+
+
         <script src="js/scripts.js"></script>
+
+
 
         <script type="text/javascript">
 
@@ -1914,28 +1940,6 @@ No, unfortunately at this time WorkCoach is only available in English. Because o
 
 
 
-
-<script type="text/javascript">
-
-  $(document).ready(function(){
-
-        var terms = ["Identify Your Blindspots", "Manage Your Derailers","Increase Your Awareness", "Transform Your Career"];
-
-        function rotateTerm() {
-          var ct = $("#js-rotating").data("term") || 0;
-          $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('fadeIn',
-           setTimeout(function() {
-  $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('flipOutX', rotateTerm);
-},  2000));
-
-
-        }
-        $(rotateTerm);
-
-
-  });
-
-  </script>
 
 
     <script type="text/javascript">
