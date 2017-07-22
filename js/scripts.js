@@ -443,7 +443,7 @@ $(window).load(function(){
     // Remove Loader
 
     $('.loader').css('opacity', 0);
-    setTimeout(function(){$('.loader').hide();}, 0);
+    setTimeout(function(){$('.loader').hide();}, 100);
 
 	// Mailchimp/Campaign Monitor Mail List Form Scripts
 	$('form.mail-list-signup').on('submit', function(){
