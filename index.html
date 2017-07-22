@@ -486,6 +486,33 @@ body {
 
 
 
+                          <script src="js/jquery.min.js"></script>
+                          <script src="js/janimate.js"></script>
+                          <script type="text/javascript">
+
+
+                                  var terms = ["Build Your Habits", "Identify Your Blindspots", "Manage Your Derailers","Increase Your Awareness", "Transform Your Career"];
+
+                                  function rotateTerm() {
+                                    var ct = $("#js-rotating").data("term") || 0;
+                                    $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('fadeIn',
+                                     setTimeout(function() {
+                            $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('flipOutX', rotateTerm);
+                          },  2000));
+
+
+                                  }
+                                  $(rotateTerm);
+
+                            </script>
+                            <script type="text/javascript">
+
+
+                          document.getElementById('loader-id').style.display = "none";
+
+
+                            </script>
+
 
 
 			<section class="product-action" >
@@ -841,6 +868,12 @@ Trusted by world-class scientists from research institutions all across the worl
 
                         </section>
                         <section style="display:none;"></section>
+
+
+
+
+
+
 
 
                         <section class="duplicatable-content" style="padding-top:0px;background-color:#f4f4f4 !important;">
@@ -1743,33 +1776,6 @@ No, unfortunately at this time WorkCoach is only available in English. Because o
 
 			</footer>
 		</div>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/janimate.js"></script>
-    <script type="text/javascript">
-
-
-            var terms = ["Build Your Habits", "Identify Your Blindspots", "Manage Your Derailers","Increase Your Awareness", "Transform Your Career"];
-
-            function rotateTerm() {
-              var ct = $("#js-rotating").data("term") || 0;
-              $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('fadeIn',
-               setTimeout(function() {
-      $("#js-rotating").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).jAnimateOnce('flipOutX', rotateTerm);
-    },  2000));
-
-
-            }
-            $(rotateTerm);
-
-      </script>
-      <script type="text/javascript">
-
-
-    document.getElementById('loader-id').style.display = "none";
-
-
-      </script>
 
 
 
