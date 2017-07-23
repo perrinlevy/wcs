@@ -129,7 +129,7 @@ $(window).scroll(function(){
     }
 
 	// Slider Initializations
-
+// Try <span class="athird">it</span><span class="bthird">the First for</span> Free
 	$('.hero-slider').flexslider({});
 	$('.image-slider').flexslider({ animation: "slide"});
 	$('.testimonials-slider').flexslider({ directionNav: false });

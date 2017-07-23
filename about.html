@@ -49,7 +49,7 @@
 
             </head>
             <body>
-              <div class="loader">
+              <div class="loader"  id="loader-id">
 
               </div>
               <span id="top1"></span>
@@ -102,7 +102,7 @@
 
                       <ul class="menu " style="display:inline;">
                         <li class="other" style=""><a href="https://app.work.coach/courses/162769/lectures/2441559">Look Inside Now</a></li>
-                        <li class="other" style=""><a href="index.html#plans">Pricing</a></li>
+                        <li class="other" style=""><a href="pricing.html">Pricing</a></li>
                         <li><a href="about.html" id="padder">About</a></li>
 
                         <li><a href="research.html">Research</a></li>
@@ -122,7 +122,7 @@
 
                       </ul>
                       </li>
-                        <li class="pull-right text-right hide-portrait hidden-pad-right" style="padding-left:20px;"><a href="index.html#plans" class="no-focus">Pricing</a></li>
+                        <li class="pull-right text-right hide-portrait hidden-pad-right" style="padding-left:20px;"><a href="pricing.html" class="no-focus">Pricing</a></li>
 
 
                       </ul>
@@ -613,7 +613,7 @@ We value reflection because we grow more quickly when we question our own assump
                                 </div>
 
                                 <div class="col-sm-3 col-xs-12 pull-right text-right">
-                                  <a href="index.html#plans" class="btn btn-primary btn-white btn-filled" style="border:0;" target="_blank">Reserve <span class="bthird">your</span><span class="athird">a</span> Spot<span class="bthird"> Now</span></a>
+                                  <a href="pricing.html" class="btn btn-primary btn-white btn-filled" style="border:0;" target="_blank">Reserve <span class="bthird">your</span><span class="athird">a</span> Spot<span class="bthird"> Now</span></a>
                                 </div>
                               </div>
                             </div>
@@ -696,7 +696,7 @@ We value reflection because we grow more quickly when we question our own assump
         <script src="js/janimate.js"></script>
 
         <script src="js/scripts.js"></script>
-        <script data-cfasync="false" type="text/javascript">
+        <script  type="text/javascript">
 
       $(window).bind("load", function() {
           document.getElementById('loader-id').style.display = "none";
@@ -735,10 +735,10 @@ We value reflection because we grow more quickly when we question our own assump
 
 
           setTimeout(function() {
-         $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble', 'wobble'],
+         $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble'],
          function(){
            setTimeout(function() {
-             $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble', 'wobble'],
+             $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble'],
              function(){
                setTimeout(function() {
                  $(document.body.lastChild).jAnimateSequence()}, 2000);
@@ -748,10 +748,10 @@ We value reflection because we grow more quickly when we question our own assump
   })},  60000);
 
   setTimeout(function() {
-  $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble', 'wobble'],
+  $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble'],
   function(){
   setTimeout(function() {
-  $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble', 'wobble'],
+  $(document.body.lastChild).jAnimateSequence(['wobble', 'wobble'],
   function(){
    setTimeout(function() {
      $(document.body.lastChild).jAnimateSequence()}, 2000);

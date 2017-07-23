@@ -7091,8 +7091,8 @@ font-size: 12px;
     padding: 7px 0;
     left: -6px;
     top: 14px;
-    width: 120px;
-    background-color:#1ea69a;
+    width: 122px;
+    background-color:#1f8fb0;
     /* background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A), to(#8EBF45)); */
     /* background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45); */
 
@@ -7462,6 +7462,10 @@ display:none;    }
 }
 
 @media only screen and (max-width: 992px) and (min-width: 320px){
+.price-text {
+  font-size: 35px !important;
+}
+
 
   .over-992 {
     display: none;
@@ -7622,8 +7626,18 @@ line-height: 36px;
   display:none;
 }
 
+.price-text {
+  font-size: 32px !important;
+}
+
 .hero-divider .video-wrapper {
   display:none;
+}
+.fifth-vis {
+padding-bottom:60px;
+}
+#final-cta {
+  box-shadow: none !important;
 }
 
 .milestones .pricing-table li i {
@@ -7648,7 +7662,10 @@ line-height: 36px;
 
 
 @media only screen and (max-width: 500px) and (min-width: 320px){
-
+  .price-text {
+    font-size: 28px !important;
+    line-height: 42px !important;
+  }
 .milestones .pricing-table {
   display:none;
 }
@@ -8274,7 +8291,10 @@ margin-right:10px;}
   font-size: 40px;
 }
 
-
+.price-text {
+  font-size: 24px !important;
+  line-height: 40px !important;
+}
 
 .contact-thirds {
 }
@@ -8319,7 +8339,10 @@ font-size: 2.5em !important;
 
 @media only screen and (max-width: 360px) and (min-width: 320px) {
 
-
+  .price-text {
+    font-size: 22px !important;
+    line-height: 38px !important;
+  }
 
 .small-1 {
   display:none !important;
@@ -8658,7 +8681,8 @@ right: 0px;
   	position: relative;
   	padding-right: 4px;
   	border-radius: 50em;
-  	border: 2px solid #777777;
+  	border: 2px solid #a8dad5;
+    background: #a8dad5;
   }
 
   .pricing-switcher input[type="radio"] {
@@ -8673,8 +8697,8 @@ right: 0px;
   	z-index: 10;
   	display: inline-block;
   	float: left;
-  	width: 20px;
-  	height: 19px;
+  	width: 21px;
+  	height: 21px;
   	line-height: 40px;
   	cursor: pointer;
   	font-size: 12px;
@@ -8685,9 +8709,9 @@ right: 0px;
   	position: absolute;
   	top: 2px;
   	left: 2px;
-  	height: 15px;
-  	width: 15px;
-  	background-color: #777777;
+  	height: 17px;
+  	width: 17px;
+  	background-color: #fff;
   	border-radius: 50em;
   	-webkit-transition: -webkit-transform 0.5s;
   	-moz-transition: -moz-transform 0.5s;
@@ -8813,6 +8837,8 @@ right: 0px;
   	backface-visibility: hidden;
   	outline: 1px solid transparent;
   }
+
+
   /*
   .pricing-wrapper > li::after {
   	content: '';
@@ -9569,8 +9595,6 @@ width: inherit;
       margin: 10px 1px;
       text-transform: uppercase;
 
-      will-change: box-shadow, transform;
-      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 
@@ -9585,7 +9609,7 @@ width: inherit;
       position: relative;
       width: 100%;
       margin-bottom: 30px;
-      border-radius: 0px;
+      border-radius: 5px;
       color: #666;
       /*   border:  1px solid #e8e8e8;
 
@@ -9594,9 +9618,9 @@ width: inherit;
    box-shadow: 0 2px 30px rgba(159, 165, 165, 0.23);
     border: 1px solid #e8e8e8;*/
 
-    -webkit-box-shadow: 0 10px 90px 10px rgba(0, 0, 0, 0.06);
-    -moz-box-shadow: 0 10px 90px 10px rgba(0, 0, 0, 0.06);
-    box-shadow: 0 10px 90px 10px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0 10px 90px 15px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0 10px 90px 15px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 10px 90px 15px rgba(0, 0, 0, 0.07);
 
   }
 
@@ -9795,4 +9819,80 @@ width:85%;
 
 .error-page .btn-text-only:hover {
   color:#fff;
+}
+
+.mid  {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+svg {
+  width: 55px;
+  height: 55px;
+  padding-left: 30px;
+/* display: inline; */
+margin-bottom: -35px;
+}
+svg .draw-arrow {
+
+  stroke-width: 2;
+  stroke: #333;
+  transform: scaleX(-1);
+
+  fill: none;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: once;
+  -moz-animation-iteration-count: once;
+  animation-iteration-count: once;
+  -webkit-animation-name: draw;
+  -moz-animation-name: draw;
+  animation-name: draw;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+}
+svg .draw-arrow.tail-1 {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+svg .draw-arrow.tail-2 {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+@-webkit-keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+#final-cta {
+  -webkit-box-shadow: 0px 0px 100px 50px rgba(255, 255, 255, .9);
+  -moz-box-shadow:0px 0px 100px 50px rgba(255, 255, 255, .9);
+  box-shadow: 0px 0px 100px 50px rgba(255, 255, 255, .9);
+
 }
