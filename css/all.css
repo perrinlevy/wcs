@@ -8283,6 +8283,13 @@ padding-top: 4px;
     margin-right: 0px !important;
 
   }
+  #container h2 {
+    font-size: 26px !important;
+        line-height: initial;
+        padding: 0px 15px;
+        padding-top:8px;
+
+  }
 }
 
 @media only screen and (max-width: 430px) and (min-width: 320px){
@@ -8302,13 +8309,7 @@ margin-right:10px;}
 .contact-thirds {
 }
 
-#container h2 {
-  font-size: 26px !important;
-      line-height: initial;
-      padding: 0px 15px;
-      padding-top:8px;
 
-}
 .hero-divider h1 {
 }
 
