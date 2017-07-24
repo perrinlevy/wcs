@@ -6557,6 +6557,9 @@ hero-divider::before {
   text-transform: capitalize;
 }
 
+.hero-divider #cta8:hover {
+}
+
 .feature-box .background-image-holder.overlay:before {
     position: absolute;
     width: 100%;
@@ -9828,7 +9831,15 @@ width:85%;
   transform: translate(-50%, -50%);
 }
 
+.btn-text-only:hover {
+  color:rgba(255, 255, 255, 0.84);
 
+}
+.btn-text-only:active, .btn-text-only:focus  {
+  box-shadow: none;
+  background-color: #fff;
+  color: #136480;
+}
 
 svg {
   width: 55px;
