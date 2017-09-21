@@ -3281,7 +3281,8 @@ img.phone-portrait {
   color: #fff;
   font-size: 56px;
   display: inline-block;
-  padding: 0px 8px;
+  padding: 0px 6px;
+  padding-right: 2px;
 }
 .pricing-table .features {
   margin: 40px 0px;
