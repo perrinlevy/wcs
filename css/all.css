@@ -2546,6 +2546,13 @@ header.title:before {
   margin-bottom: 64px;
   margin-bottom: 24px;
 }
+.action-banner .support h1 {
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 600;
+  margin-bottom: 64px;
+  margin-bottom: 24px;
+}
 .action-banner h2 {
   font-size: 32px;
   line-height: 44px;
@@ -6562,7 +6569,13 @@ footer.short-2 .contact-action {
     margin-bottom: 64px;
     margin-bottom: 15px;
 }
-
+.action-banner .support h1 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 64px;
+    margin-bottom: 40px;
+}
 .support .background-image-holder {
      background-position: 50% 25% !important;
 }
@@ -7683,7 +7696,9 @@ line-height: 36px;
   .action-banner h1 {
     font-size: 32px;
   }
-
+  .action-banner .support h1 {
+    font-size: 32px;
+  }
   .mod1 .video-wrapper {
     left:-300px;
 
@@ -7836,7 +7851,10 @@ font-size: 18px !important;
   font-size: 32px;
       margin-top: 25px;
 }
-
+.action-banner .support h1 {
+  font-size: 32px;
+      margin-top: 25px;
+}
 #logos-size img{
   max-height: 90px !important;
 }
