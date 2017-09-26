@@ -2546,13 +2546,6 @@ header.title:before {
   margin-bottom: 64px;
   margin-bottom: 24px;
 }
-.action-banner .support h1 {
-  font-size: 40px;
-  line-height: 56px;
-  font-weight: 600;
-  margin-bottom: 64px;
-  margin-bottom: 24px;
-}
 .action-banner h2 {
   font-size: 32px;
   line-height: 44px;
@@ -3232,6 +3225,8 @@ border: 2px solid #fff;
 }
 .strip {
   padding: 64px 0px;
+  background-image: linear-gradient(to bottom right,#124854,#124854) !important;
+
 }
 .strip::-moz-placeholder {
   color: #999999;
@@ -6569,13 +6564,7 @@ footer.short-2 .contact-action {
     margin-bottom: 64px;
     margin-bottom: 15px;
 }
-.action-banner .support h1 {
-    font-size: 40px;
-    line-height: 44px;
-    font-weight: 600;
-    margin-bottom: 64px;
-    margin-bottom: 40px;
-}
+
 .support .background-image-holder {
      background-position: 50% 25% !important;
 }
@@ -7202,7 +7191,7 @@ font-size: 12px;
 }
 
 #bg-custom {
-    background: #165a69 !important;
+    background-image: linear-gradient(to bottom right,#165a69,#155b69) !important;
 }
 
 .ribbon-green {
@@ -7696,9 +7685,7 @@ line-height: 36px;
   .action-banner h1 {
     font-size: 32px;
   }
-  .action-banner .support h1 {
-    font-size: 32px;
-  }
+
   .mod1 .video-wrapper {
     left:-300px;
 
@@ -7851,10 +7838,7 @@ font-size: 18px !important;
   font-size: 32px;
       margin-top: 25px;
 }
-.action-banner .support h1 {
-  font-size: 32px;
-      margin-top: 25px;
-}
+
 #logos-size img{
   max-height: 90px !important;
 }
