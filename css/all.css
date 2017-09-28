@@ -7579,7 +7579,9 @@ display:none;    }
 .price-text {
   font-size: 35px !important;
 }
-
+.hiddde {
+  display:none;
+}
 
   .over-992 {
     display: none;
