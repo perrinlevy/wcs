@@ -7599,6 +7599,7 @@ display:none;    }
   #padder {
         padding-left: 25px;
   }
+
 }
 @media only screen and (max-width: 1050px) and (min-width: 992px){
   #padder {
@@ -7606,7 +7607,14 @@ display:none;    }
   }
 }
 @media only screen and (max-width: 1200px)and (min-width: 992px){
-
+  #main_text {
+    font-size: 35px !important;
+    margin-bottom:10px;
+  }
+.abcd {
+    font-size:15px !important;
+    margin-bottom: 12px;
+  }
   .pricing-table .features #exception3 li {
   margin-bottom: 59px;
 
@@ -7669,8 +7677,12 @@ display:none;    }
   .fourth1 {
     display:none;
   }
+  #main_text {
+    font-size: 36px !important;
+    margin-bottom:10px;
+  }
 
-
+line-height: 1.2em;
 
   .text-banner .background-image-holder {
     background-position: 50% 60% !important;
@@ -7821,6 +7833,17 @@ font-size: 18px !important;
 }
 @media only screen and (max-width: 767px) and (min-width: 320px){
   footer.short-2 .align-vertical {
+}
+
+.abcd {
+  font-size: 15px !important;
+  margin-bottom:14px !important;
+}
+
+#main_text {
+  font-size: 36px !important;
+  margin-bottom:10px !important;
+  line-height: 1.2em;
 }
 
 
