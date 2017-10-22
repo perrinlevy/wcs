@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1921px"
+   height="500px"
+   viewBox="0 0 1921 500"
+   version="1.1"
+   id="svg99985"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bg-waves-white1.svg">
+  <metadata
+     id="metadata99997">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1162"
+     inkscape:window-height="664"
+     id="namedview99995"
+     showgrid="false"
+     inkscape:zoom="0.16866216"
+     inkscape:cx="-435.78238"
+     inkscape:cy="250.00001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg99985" />
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title99987">Combined Shape</title>
+  <desc
+     id="desc99989">Created with Sketch.</desc>
+  <defs
+     id="defs99991" />
+  <g
+     id="Page-1"
+     style="fill:#f4f8ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+     transform="matrix(-1,0,0,1,1921.4688,0)">
+    <path
+       d="m 1920.7344,55.472794 0,444.058456 -1920.000025,0 0,-444.058456 0,55.941546 C 328.06771,-37.648182 648.06771,-36.221746 960.73437,115.69364 1273.401,267.60903 1593.401,266.1826 1920.7344,111.41434 l 0,-55.941546 z"
+       id="Combined-Shape"
+       style="fill:#f4f8ff;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
