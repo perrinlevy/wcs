@@ -44,7 +44,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#ffffff">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:400,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,500,700' rel='stylesheet' type='text/css'>
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
 
@@ -72,13 +72,68 @@
         }
         </style>
         <![endif]-->
+        <style>
+        .boxes4{
+          /* padding-bottom: 10px; */
 
+        /* overflow: visible; */
+        /* padding-bottom: 10px; */
+        /* padding-bottom: 10px; */
+        box-shadow: 0px 9px 90px 30px hsla(223, 27%, 31%, 0.15);
+        background: #fff !important;
+        padding: 32px;
+        border-radius: 10px;
+        width:85%;
+        margin-top:-40px;
+        margin-bottom:-150px;
+        }
+        .white-wave-small1 {
+          display: block;
+          height: 150px;
+          background-image: url(img/bg-waves-white-small.svg);
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+
+          margin: auto;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+          z-index: 2;
+          margin-left: -20px;
+        margin-right: -20px;
+        }
+
+        .white-wave {
+          display: block;
+          height: 250px;
+          background-image: url(../img/bg-waves-white1.svg);
+
+
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+
+          margin: auto;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+          z-index: 2;
+          margin-left: -20px;
+      margin-right: -20px;
+        }
+      }
+
+
+        </style>
 
 
             </head>
             <body  style="background: #f4f8ff !important;">
 
+              <div class="loader"  id="loader-id">
 
+              </div>
 
 
               <span id="top1"></span>
@@ -152,7 +207,7 @@
                                                                                                               Join Thousands Building valuable personal & professional skills
                                                                                                               </h3>
                                                                                                             <p class="lead abcd text-white" data-wow-duration="1s" style="  font-size:15px;  text-shadow: 0px 1px 0 #1d3faf;line-height: 31px;margin-bottom: 20px;">
-                                                                                                              With our proprietary psychometric tool (WDA), you get an in-depth, research-based look at your decision-making tendencies, blindspots,
+                                                                                                              With our newly released psychometric tool, you get an in-depth, research-based look at your decision-making tendencies, blindspots,
                                                                                                               conflict styles, motivations, interpersonal propensities, and more
                                                                                                               — all without paying hundreds for a high-quality, commercial-grade psychometric assessment.
 
@@ -217,19 +272,20 @@
                                                                                                             <img style="max-width: 125px; border: 0px #fff solid;border-radius: 50%; box-shadow:0px 4px 20px 0px hsla(223, 27%, 31%, 0.15);-webkit-box-shadow:0px 4px 20px 0px hsla(223, 27%, 31%, 0.15);-moz-box-shadow:0px 4px 20px 0px hsla(223, 27%, 31%, 0.15);" src="img/assess-icon.png">
                                                                                                           </div>
                                                                                                             <ul class ="bullets" style="margin-bottom:0px;">
-                                                                                                              <li><div class="text-icon">+65 pages of personalized insights</div></li>
 
                                                                                                               <li><div class="text-icon">Developed By Leading Scientists</div></li>
 
 
-                                                                                                              <li><div class="text-icon">+200 Data Points and Predictors</div></li>
+
+                                                                                                              <li><div class="text-icon">+125 Data Points and Predictors</div></li>
+                                                                                                              <li><div class="text-icon">Pages of personalized insights</div></li>
                                                                                                               <li><div class="text-icon">Normed on +50,000 subjects</div></li>
 
                                                                                                               <li><div class="text-icon">Completely Secure and Confidential</div></li>
-                                                                                                              <li><div class="text-icon">Takes Less Than 15 minutes</div></li>
+                                                                                                              <li><div class="text-icon">Takes Less Than 12 minutes</div></li>
                                                                                                               <li style="border: 0px;"><div class="text-icon">Actionable Insights From Thousands of Peer-Reviewed Studies</div></li>
                                                                                                             <div class="text-center" style="padding-top:15px;">
-                                                                                                               <a href="https://app.work.coach/courses/162769/lectures/2441559" id="cta" class="btn btn-primary btn-filled   " style=" padding: 15px 30px;font-size: 19px;  border-color:#3fca97; background-color:#3fca97;" >Get Your Free Report Now</a>
+                                                                                                               <a href="#test" id="cta" class="btn btn-primary btn-filled   " style=" padding: 15px 30px;font-size: 19px;  border-color:#3fca97; background-color:#3fca97;" >Get Your Free Report Now</a>
                                                                                                                <h5 class ="" id="microcopy" style="font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;  margin-bottom:0px; font-size:11px; padding-top:12px;opacity: 0.7;">No registration or credit card required</h5>
 
                                                                                                              </div>
@@ -283,7 +339,7 @@
                                                                                           </section>
 
                                                                                           <section class="header-icons duplicatable-content" style=" text-align:center;  background: #f4f8ff !important;  padding-top: 70px; padding-bottom:20px;">
-
+                                                                                            <span id="test"></span>
                                                                                             <div class="container" style="padding-bottom: 0px;">
 
 
@@ -368,7 +424,63 @@
 
 
 
+<div class="footer-container" style="padding-top: 20px;">
 
+  <footer class="bg-primary short-2" style="background: #373a46 !important;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 ">
+          <span class="text-white" >© 2017 WorkCoach, Inc.</span>
+
+          <span class="text-white">106 E. 6th Street, Austin TX
+
+            </span>
+            <span class="text-white">+1 888 310 3130
+
+            </span>
+
+            <span class="text-white">
+              <a href="#gscw197810" style="padding-right:; cursor:pointer;"><span style="font-size:11px; vertical-align:top;">[+]</span> Feedback </a><span class="opa">|</span>
+              <a href="legal.html" class="small-1" style="padding-right:; cursor:pointer;">Legal </a><span class="small-1 opa">|</span>
+
+              <a href="https://app.work.coach" style="padding-right:; cursor:pointer;">Login </a><span class="opa">|</span>
+             <a href="" style=" cursor:pointer;">System Status <span id="status-sign" style="color:#81C43D">●</span></a>
+
+</span>
+
+
+
+        </div>
+
+
+
+        <div class="col-sm-2 col-xs-12 pull-right text-right alt-footer" style="display:none; margin-top:-24px;">
+          <span class="text-white"><a href="#top1" style="text-decoration:underline; cursor:pointer;">Back to Top<i class="icon arrow_carrot-up" style="color: #fff;font-size: 14px;padding-left:0px;vertical-align: inherit;    font-weight: 600; "></i>
+          </a></span>
+
+      </div>
+
+
+
+
+
+      </div>
+    </div>
+
+    <div class="contact-action" style="font-size:14px;">
+      <div class="align-vertical">
+        <span class="text-white"><a href="#top1" style="text-decoration:underline; cursor:pointer;">Back to Top<i class="icon arrow_carrot-up" style="color: #fff;font-size: 14px;padding-left:0px;vertical-align: inherit;    font-weight: 600; "></i>
+        </a></span>
+
+
+
+
+      </div>
+    </div>
+
+
+  </footer>
+</div>
 
 
 
