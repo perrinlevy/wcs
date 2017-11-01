@@ -3722,21 +3722,7 @@ margin-right: -20px;
     margin-left: -2px;
     margin-right: -2px;
   }
-.white-wave::before {
-  content: "";
-display: block;
-width: 100%;
-height: 250px;
-background: url(../img/bg-waves-clear.png) no-repeat top center;
 
-background-size: cover;
-position: absolute;
-margin: auto;
-left: 0;
-right: 0;
-bottom: 0;
-opacity: .1;
-}
 .special-bg{
 background-image: linear-gradient(to right,#0e2177,#2e6abd, rgba(74, 140, 232, 0.751));
    background-image: url(../img/back-city.png);
