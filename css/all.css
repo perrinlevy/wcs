@@ -2287,16 +2287,16 @@ nav hr {
   display: block;
 }
 .overlay-bar.nav-sticky .menu li a {
-  color: #333;
+  color: #373a46;
 }
 .overlay-bar.nav-sticky .social-icons li a {
-  color: #333;
+  color: #373a46;
       text-shadow: 0px 0px 0 rgba(35, 78, 218, 0);
 
 font-weight:600;
 }
 .overlay-bar.nav-sticky .has-dropdown:after {
-  color: #333333;
+  color: #373a46;
 }
 .offscreen-menu .logo {
   padding-bottom: 32px;
@@ -2306,12 +2306,12 @@ font-weight:600;
   cursor: pointer;
 }
 .nav-sticky .offscreen-toggle i {
-  color: #333333 !important;
+  color: #373a46 !important;
 }
 .offscreen-container {
   position: fixed;
   width: 300px;
-  background: #333333;
+  background: #373a46;
   right: 0px;
   height: 100%;
   top: 0px;
