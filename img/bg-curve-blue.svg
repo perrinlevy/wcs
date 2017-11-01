@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1921px"
+   height="500px"
+   viewBox="0 0 1921 500"
+   version="1.1"
+   id="svg101756"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bg-curve-blue.svg">
+  <metadata
+     id="metadata101768">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Combined Shape</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1118"
+     inkscape:window-height="690"
+     id="namedview101766"
+     showgrid="false"
+     inkscape:zoom="0.16866216"
+     inkscape:cx="-435.78238"
+     inkscape:cy="250.00001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg101756" />
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title101758">Combined Shape</title>
+  <desc
+     id="desc101760">Created with Sketch.</desc>
+  <defs
+     id="defs101762" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:#4a8ce8;fill-opacity:1">
+    <path
+       d="M0.436525415,0 L0.421875,0 L0.421875,500 L1920.42187,500 L1920.42187,79.5156065 C1920.19367,79.4783576 1440.30771,1.15687371 960.421866,1.15687371 C480.421866,1.15687371 0.421988364,79.515625 0.421988364,79.515625 C0.421988364,79.515625 0.427635276,50.240852 0.436525415,3.40928018e-07 Z"
+       id="Combined-Shape"
+       fill="#F5F9FC"
+       style="fill:#4a8ce8;fill-opacity:1" />
+  </g>
+</svg>

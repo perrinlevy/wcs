@@ -14,7 +14,6 @@ $(document).ready(function(){
 
 
 
-
 	// Offscreen Nav
 
 	$('.offscreen-toggle').click(function(){
