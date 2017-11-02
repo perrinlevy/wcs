@@ -3266,6 +3266,11 @@ padding-top: 7px;
     opacity: .3;
     margin-bottom: 25px;
 }
+#logos-size1 img {
+    max-height: 80px;
+    opacity: .3;
+    margin-bottom: 25px;
+}
 .team1 img {
 height: 120px;
 width: 120px;
@@ -3829,6 +3834,26 @@ stroke: #f4f8ff;
 margin-right: -20px;
 margin-bottom: -2px;
   }
+
+  .white-wave3 {
+    display: block;
+    height: 250px;
+    background-image: url(../img/bg-waves-white1.svg);
+    fill: #f4f8ff;
+stroke: #f4f8ff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    margin: auto;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: 2;
+    margin-left: -20px;
+margin-right: -20px;
+margin-bottom: -2px;
+  }
   .white-wave2 {
     display: block;
     height: 250px;
@@ -3927,7 +3952,23 @@ margin-top: -2px;
   margin-right: -20px;
 
     }
+    .blue-wave-small2 {
+      display: block;
+      height: 150px;
+      background-image: url(../img/bg-waves-blue1.svg);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: cover;
 
+      margin: auto;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      z-index: 2;
+      margin-left: -20px;
+    margin-right: -20px;
+
+    }
     .grey-wave-small1 {
       display: block;
       height: 250px;
@@ -8268,7 +8309,101 @@ display:none;
 .testimonials-slider li p.lead {
   font-size:18px;
 }
+
+.grey-wave-small1 {
+  background-color: transparent;
+    height: 150px;
+
+    display: block;
+    background-image: url(../img/bg-waves-grey.svg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: -2px;
+    margin-right: -2px;
+    transform: scale(-1);
+}
+.white-wave3{
+
+}
+.white-wave {
+  background-color: transparent;
+    height: 150px;
+margin-top: 70px;
+    display: block;
+    background-image: url(../img/bg-waves-grey.svg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.white-wave-small {
+  background-color: transparent;
+    height: 150px;
+
+    display: block;
+    background-image: url(../img/bg-waves-grey.svg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+.white-wave2 {
+  background-color: transparent;
+  height: 150px;
+margin-top: 40px;
+  display: block;
+  background-image: url(../img/bg-waves-grey.svg) !important;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.blue-wave-small1 {
+  background-color: #4484e4 !important;
+    height: 150px;
+    display: block;
+    background-image: url(../img/bg-waves-grey.svg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: -2px;
+    margin-right: -2px;
+    transform: scale(-1);
+    margin-top: -30px;
+}
+
+.blue-wave-small2 {
+  background-color: #4484e4 !important;
+    height: 150px;
+    display: block;
+    background-image: url(../img/bg-waves-grey.svg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-left: -2px;
+    margin-right: -2px;
+    transform: scale(-1) !important;
+margin-top: -50px;
+
+
+}
+#smush {
+  padding-top: 50px;
+}
+#logos-size1  {
+  padding-top: 50px !important;
+}
+#logos-size1 .sixth img{
+  max-width: 90% !important;
+margin-top: 30px !important;
+}
 #oracle {
+
   max-height:70px;
 }
 #exxon{
@@ -8407,9 +8542,18 @@ padding-bottom: 25px;
 .hidden-pix {
   display:none;
 }
-
+.sdgfd{
+  display:inline !important;
+}
 .afourth{
   display:block !important;
+}
+.testimonials-slider .author {
+  font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+
+  letter-spacing: 0px;
 }
 
 }
@@ -8636,6 +8780,10 @@ padding-bottom: 25px;
     font-size: 34px !important;
     margin-bottom:10px;
   }
+  #main_text22 {
+    font-size: 34px !important;
+    margin-bottom:10px;
+  }
   #main_text_a {
     font-size: 40px !important;
     margin-bottom:10px;
@@ -8671,6 +8819,9 @@ padding-bottom: 25px;
     margin-top: 70px !important;
   }
   #main_text1 {
+    font-size: 19px !important;
+  }
+  #main_text12 {
     font-size: 19px !important;
   }
   #main_text1_a {
@@ -8836,6 +8987,13 @@ max-height: 590px !important;
   #main_text1 {
     font-size: 19px !important;
   }
+  #main_text22 {
+    font-size: 32px !important;
+    margin-bottom:10px;
+  }
+  #main_text12 {
+    font-size: 19px !important;
+  }
 
   #main_text_a {
     font-size: 32px !important;
@@ -8948,7 +9106,9 @@ line-height: 36px;
 @media only screen and (max-width: 620px) and (min-width: 320px){
   #pic1 {
   }
-
+  .timeline-1 {
+    padding-top: 40px !important;
+  }
   .boxes {
     width: 43%;
     float: none !important;
@@ -9091,8 +9251,8 @@ background-image: linear-gradient(to right,#0e2177,#2e6abd, rgba(74, 140, 232, 0
   padding: 36px;
   border-radius: 10px;
   width:90%;
-  margin-top:10px;
-  margin-bottom:-140px;
+  margin-top:40px;
+  margin-bottom:-80px;
   }
   #neg-30 {
     margin-top: -30px;
@@ -9132,7 +9292,11 @@ background-image: linear-gradient(to right,#0e2177,#2e6abd, rgba(74, 140, 232, 0
   margin-bottom:10px !important;
   line-height: 1.2em;
 }
-
+#main_text22 {
+  font-size: 36px !important;
+  margin-bottom:10px !important;
+  line-height: 1.2em;
+}
 #main_text_a {
   font-size: 36px !important;
   margin-bottom:10px !important;
@@ -9156,6 +9320,9 @@ background-image: linear-gradient(to right,#0e2177,#2e6abd, rgba(74, 140, 232, 0
 }
 
 #logos-size img{
+  max-height: 90px !important;
+}
+#logos-size1 img{
   max-height: 90px !important;
 }
 .topper{
@@ -9323,6 +9490,18 @@ width:100% !important;
   .athird{
     display:none;
   }
+.contact-thirds {
+  padding-bottom: 100px !important;
+}
+#main_text22 {
+  text-align: center !important;
+}
+#main_text12 {
+  text-align: center !important;
+}
+#subtext {
+  text-align: center !important;
+}
   .hero-divider h1 {
   }
 
@@ -9478,6 +9657,7 @@ display:none !important;
   #img_pad {
     padding: 40px 80px;
     padding-bottom: 10px;
+    margin-top: -50px;
   }
   #img_pad1 {
     padding: 40px 80px;
@@ -9634,6 +9814,11 @@ section.pricing-1 {
 #microcopy {
   padding-right:0px !important;
 }
+
+.boxes1 {
+  width: 85% !important;
+    margin-top: -50px !important;
+}
 .grey-curve-faces {
 
       height: 200px;
@@ -9680,7 +9865,7 @@ margin-left: 15px !important;
   border-radius: 10px;
   width:100%;
   margin-top:10px;
-  margin-bottom:-140px;
+  margin-bottom:-80px;
   }
 .contact-thirds {
 }
@@ -9802,6 +9987,7 @@ padding-top: 4px;
     #img_pad {
       padding: 40px 30px;
       padding-bottom:15px;
+      margin-top: -70px;
     }
     #img_pad1 {
       padding: 40px 30px;
@@ -9904,7 +10090,7 @@ margin-right:10px;}
   border-radius: 10px;
   width:100%;
   margin-top:20px;
-  margin-bottom:-140px;
+  margin-bottom:-80px;
   }
 
 .price-text {
@@ -9953,6 +10139,21 @@ font-size: 2.5em !important;
     margin-left: -4.75% !important;
 
   }
+  .no-padding{
+    padding: 0px !important;
+    padding-top:35px !important;
+  }
+  .pricing-page .clients-2 {
+    display: none;
+  }
+
+  .pricing-page .testimonials-slider {
+    padding-top: 110px !important;
+  }
+  .bullets2 {
+  margin: 4% !important;
+margin-right: 0% !important;
+}
   .price-text {
     font-size: 22px !important;
     line-height: 38px !important;
@@ -9978,6 +10179,9 @@ font-size: 2.5em !important;
   #main_text {
       font-size: 40px !important;
     }
+    #main_text22 {
+        font-size: 40px !important;
+      }
     #main_text_a {
         font-size: 40px !important;
       }
@@ -11137,6 +11341,10 @@ width: inherit;
     .t-icon {
         display: table-cell;
         vertical-align:top;}
+
+        .pricing-page .primary-features {
+          padding-top:50px !important;
+        }
 
         #reresize {
 
