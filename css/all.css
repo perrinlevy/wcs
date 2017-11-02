@@ -6057,7 +6057,7 @@ padding-left: 15px;
   font-size: 40px;
   display: inline-block;
   margin-bottom: 16px;
-  color: #4a8ce8;
+  color: #3e83ea;
       margin-top: 2px;
 }
 .timeline-event .middle .vertical-line {
@@ -6065,7 +6065,7 @@ padding-left: 15px;
   width: 2px;
   height: 100%;
   display: inline-block;
-  background: #4a8ce8;
+  background: #3e83ea;
   position: absolute;
   left: 50%;
   margin-left: -2px;
@@ -6182,7 +6182,7 @@ padding-left: 15px;
     font-size: 40px;
     display: inline-block;
     margin-bottom: 16px;
-    color: #4a8ce8;
+    color: #3e83ea;
         margin-top: 2px;
   }
   .timeline-event .middle .vertical-line {
@@ -6190,7 +6190,7 @@ padding-left: 15px;
     width: 2px;
     height: 100%;
     display: inline-block;
-    background: #4a8ce8;
+    background: #3e83ea;
     position: absolute;
     left: 50%;
     margin-left: -2px;
@@ -6213,7 +6213,7 @@ padding-left: 15px;
     font-size: 40px;
     display: inline-block;
     margin-bottom: 16px;
-    color: #4a8ce8;
+    color: #3e83ea;
         margin-top: 2px;
   }
   .timeline-event .middle .vertical-line {
@@ -6221,7 +6221,7 @@ padding-left: 15px;
     width: 2px;
     height: 100%;
     display: inline-block;
-    background: #4a8ce8;
+    background: #3e83ea;
     position: absolute;
     left: 50%;
     margin-left: -2px;
@@ -8440,6 +8440,9 @@ margin-left: 20px;
 @media only screen and (max-width: 20000px) and (min-width: 1400px){
 #hide-img2 {
   left: 64%;
+}
+.special-bg{
+  background-position: 98% 12%;
 }
 #hide-img2{
 padding-left: 0px !important;
