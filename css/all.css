@@ -3764,7 +3764,9 @@ background-image: linear-gradient(to right,#0e2177,#2e6abd, rgba(74, 140, 232, 0
   background-image: linear-gradient(to right,#0e2177,#2e6abd, rgba(74, 140, 232, 0.751));
   background-image: url(../img/new-2.png);
   background-repeat: no-repeat;
-
+padding-top:165px;
+padding-bottom:145px;
+margin-bottom:-100px;
   background-position: 100% 50%;
 background-size: 45%;
 }
