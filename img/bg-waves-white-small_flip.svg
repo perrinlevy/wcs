@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg99985"
+   version="1.1"
+   viewBox="0 0 1920 273.55164"
+   height="273.55164"
+   width="1920">
+  <metadata
+     id="metadata99997">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Combined Shape</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title99987">Combined Shape</title>
+  <desc
+     id="desc99989">Created with Sketch.</desc>
+  <defs
+     id="defs99991" />
+  <g
+     transform="matrix(1,0,0,-0.54836001,-0.734375,273.92296)"
+     style="fill:#f4f8ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1"
+     id="Page-1">
+    <path
+       style="fill:#f4f8ff;fill-opacity:1"
+       id="Combined-Shape"
+       d="m 1920.7344,55.472794 0,444.058456 -1920.000025,0 0,-444.058456 0,55.941546 C 328.06771,-37.648182 648.06771,-36.221746 960.73437,115.69364 1273.401,267.60903 1593.401,266.1826 1920.7344,111.41434 l 0,-55.941546 z" />
+  </g>
+</svg>
