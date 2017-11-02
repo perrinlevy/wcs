@@ -3910,6 +3910,24 @@ margin-top: -2px;
   }
 
 
+    .blue-wave-small1 {
+      display: block;
+      height: 150px;
+      background-image: url(../img/bg-waves-blue1.svg);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: cover;
+
+      margin: auto;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      z-index: 2;
+      margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -2px;
+    }
+
   .blue-curve {
     display: block;
     height: 50px;
