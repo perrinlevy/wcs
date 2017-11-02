@@ -3952,6 +3952,25 @@ margin-top: -2px;
   margin-right: -20px;
 
     }
+
+        .blue-wave-small3 {
+          display: block;
+          height: 150px;
+          background-image: url(../img/bg-waves-blue1.svg);
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+
+          margin: auto;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
+          z-index: 2;
+          margin-left: -20px;
+      margin-right: -20px;
+      margin-top: -5px;
+
+        }
     .blue-wave-small2 {
       display: block;
       height: 150px;
@@ -9491,7 +9510,7 @@ width:100% !important;
     display:none;
   }
 .contact-thirds {
-  padding-bottom: 100px !important;
+  padding-bottom: 0px !important;
 }
 #main_text22 {
   text-align: center !important;
@@ -9820,7 +9839,21 @@ section.pricing-1 {
 #microcopy {
   padding-right:0px !important;
 }
-
+#main_text22 {
+  text-align: center !important;
+  padding: 0px 10px !important;
+  font-size: 36px !important;
+}
+#main_text12 {
+  text-align: center !important;
+    padding: 0px 10px !important;
+    font-size: 17px !important;
+}
+#subtext {
+  text-align: center !important;
+  font-size: 14px !important;
+    padding: 0px 10px !important;
+}
 .boxes1 {
   width: 85% !important;
     margin-top: -50px !important;
@@ -9945,7 +9978,21 @@ margin-top: 0px !important;
 
 }
 @media only screen and (max-width: 500px) and (min-width: 320px){
-
+  #main_text22 {
+    text-align: center !important;
+    padding: 0px 0px !important;
+    font-size: 36px !important;
+  }
+  #main_text12 {
+    text-align: center !important;
+      padding: 0px 0px !important;
+      font-size: 17px !important;
+  }
+  #subtext {
+    text-align: center !important;
+    font-size: 14px !important;
+      padding: 0px 0px !important;
+  }
 
   .boxes {
     width: 60%;
@@ -10078,7 +10125,10 @@ margin-right:10px;}
   font-size: 40px;
 }
 
-
+.bullets li::before {
+  font-size: 17px !important;
+  font-weight: 400 !important;
+}
 #marker .col-xs-10:nth-of-type(2){
   width: 100% !important;
   margin-left: -2.75% !important;
@@ -10144,6 +10194,10 @@ font-size: 2.5em !important;
     width: 103% !important;
     margin-left: -4.75% !important;
 
+  }
+  .bullets li::before {
+    font-size: 16px !important;
+    font-weight: 400 !important;
   }
   .no-padding{
     padding: 0px !important;
