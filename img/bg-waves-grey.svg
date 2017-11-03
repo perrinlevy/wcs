@@ -1,10 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1921px" height="500px" viewBox="0 0 1921 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M1920.32824,500 L1920.32824,81.2992649 C1920.32824,81.2992649 1400.32812,-101.624081 960.328177,81.2992649 C520.328238,264.222611 0.0477464048,93.7275121 0.328238364,93.2992649 C0.426030045,93.1499594 0.455632871,269.805354 0.452707236,500 L1920.32824,500 Z" id="Combined-Shape" fill="#F5F9FC"></path>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1921px"
+   height="500px"
+   viewBox="0 0 1921 500"
+   version="1.1"
+   id="svg4236"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="bg-waves-grey.svg">
+  <metadata
+     id="metadata4248">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1748"
+     inkscape:window-height="1118"
+     id="namedview4246"
+     showgrid="false"
+     inkscape:zoom="0.16866216"
+     inkscape:cx="960.5"
+     inkscape:cy="250"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4236" />
+  <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title4238">Combined Shape</title>
+  <desc
+     id="desc4240">Created with Sketch.</desc>
+  <defs
+     id="defs4242" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     style="fill:#f4f8ff;fill-opacity:1">
+    <path
+       d="M1920.32824,500 L1920.32824,81.2992649 C1920.32824,81.2992649 1400.32812,-101.624081 960.328177,81.2992649 C520.328238,264.222611 0.0477464048,93.7275121 0.328238364,93.2992649 C0.426030045,93.1499594 0.455632871,269.805354 0.452707236,500 L1920.32824,500 Z"
+       id="Combined-Shape"
+       fill="#F5F9FC"
+       style="fill:#f4f8ff;fill-opacity:1" />
+  </g>
 </svg>
