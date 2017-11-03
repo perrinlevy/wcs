@@ -10267,6 +10267,9 @@ margin-right: 0% !important;
 .bullets2 li:first-of-type {
   margin-top: 15px !important;
 }
+.bullets2 li:last-of-type {
+  margin-top: 15px !important;
+}
   .price-text {
     font-size: 22px !important;
     line-height: 38px !important;
