@@ -8731,6 +8731,10 @@ display:none;    }
       line-height: 26px !important;
 
 }
+
+.hidden-1 {
+  display:none;
+}
 #off-right{
   margin-top: 0;
 position: absolute;
@@ -10728,11 +10732,6 @@ right: 0px;
 
   }
 
-  .touch .pricing-wrapper {
-  	-webkit-perspective: 2000px;
-  	-moz-perspective: 2000px;
-  	perspective: 2000px;
-  }
 
   .pricing-wrapper.is-switched .is-visible {
   	-webkit-transform: rotateY(180deg);
@@ -11763,9 +11762,7 @@ width:85%;
   }
 }
 @media only screen and (max-width: 992px) and (min-width: 767px){
-.hidden-1 {
-  display:none;
-}
+
 
 
 
