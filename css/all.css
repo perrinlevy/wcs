@@ -4908,7 +4908,7 @@ footer.short-2 .contact-action {
   right: 0px;
   height: 100%;
   width: 25%;
-  background: #09303d;
+  background: #373a46 ;
   z-index: 3;
   top: 0;
   text-align: center;
@@ -4926,7 +4926,7 @@ footer.short-2 .contact-action .arrow_right {
   top: 2px;
 }
 footer.short-2 .contact-action:hover {
-  background: #06222c;
+  background: #373a46;
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .top-bar {
@@ -7730,11 +7730,11 @@ background-color: rgba(51, 51, 51, 0) !important;
 }
 
 footer.short-2 .contact-action:hover {
-    background: #373b47;
+    background: #373a46 ;
 }
 footer.short-2 .contact-action {
 
-    background: hsl(225, 13%, 25%);
+    background: #373a46 ;
 
 }
 .subnav li a{
