@@ -3,7 +3,13 @@ Allow: /
 Disallow: /video/
 Disallow: /PNG/
 Disallow: /mail/
-Disallow: /img/rsz_1faces-1-2.png
+Disallow: /checkout
+Disallow: /check-out
+Disallow: /payment
+Disallow: /order
+Disallow: /thanks
+Disallow: /thank-you
+Disallow: /404
 
 User-agent: ia_archiver
 Disallow: /
