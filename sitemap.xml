@@ -1,33 +1,79 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-<loc>https://work.coach/</loc>
-<changefreq>weekly</changefreq>
-<priority>1.00</priority>
+  <loc>https://work.coach/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://work.coach/about</loc>
-<changefreq>weekly</changefreq>
-<priority>0.80</priority>
+  <loc>https://work.coach/assessment</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.95</priority>
 </url>
 <url>
-<loc>https://work.coach/research</loc>
-<changefreq>weekly</changefreq>
-<priority>0.80</priority>
+  <loc>https://work.coach/pricing</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://work.coach/support</loc>
-<changefreq>weekly</changefreq>
-<priority>0.70</priority>
+  <loc>https://work.coach/about</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://work.coach/careers</loc>
-<changefreq>weekly</changefreq>
-<priority>0.20</priority>
+  <loc>https://work.coach/research</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://work.coach/legal</loc>
-<changefreq>weekly</changefreq>
-<priority>0.10</priority>
+  <loc>https://work.coach/faq</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://work.coach/support</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://work.coach/careers</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://work.coach/legal</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://work.coach/giftcard</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://work.coach/checkout</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://work.coach/check-out</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://work.coach/order</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://work.coach/payment</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
 </url>
 </urlset>
